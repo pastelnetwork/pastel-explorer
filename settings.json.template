@@ -10,10 +10,10 @@
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Animecoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "ANI",
 
   // logo
   "logo": "/images/logo.png",
@@ -47,9 +47,12 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    //mainnet
+    //"port": 9932,
+    //testnet
+    "port": 19932,
+    "username": "animecoinrpc",
+    "password": "aslaksjlakjljlkdslasldlas1292130ajsdaljdl"
   },
 
   // confirmations
@@ -82,21 +85,21 @@
   // ensure links on API page are valid
   "api": {
     "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockhash": "",
+    "txhash": "",
+    "address": ""
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "ANI",
     "exchange": "BTC",
-    "enabled": ["bittrex"],
-    "cryptopia_id": "1658",
+    "enabled": ["cryptopia"],
+    "cryptopia_id": "ANI_BTC",
     "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "default": "cryptopia"
   },
 
   // richlist/top100 settings
@@ -122,8 +125,13 @@
   "youtube": "youryoutubechannel",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  //testnet
+  "genesis_tx": "3b9d264d4195ba7fa0acaf6a09f1da51c138a84e1ad5c4faef06ed9233d6ee20",
+  "genesis_block": "07329f7726fde9f99f0c6440f67af0bcf81e9745a6b2a5c5b0ae1484ca949ab8",
+
+  //mainnet
+  //"genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
+  //"genesis_block": "00009067632688e02b7c1522037faaa7510be18a0c1c3c09776a16349808b458",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
