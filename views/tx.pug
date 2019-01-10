@@ -8,7 +8,7 @@ block content
     .panel.panel-default
       .panel-heading.hidden-xs
         strong #{settings.symbol} txid: #{tx.txid}
-        a(href='/api/getrawtransaction?txid='+tx.txid+'}&decrypt=1')
+        a(href='/api/getrawtransaction?txid='+tx.txid+'&decrypt=1')
           span.glyphicon.glyphicon-info-sign.iquidus.pull-right
       table.table.table-bordered.table-striped.summary-table 
         thead
