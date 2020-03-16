@@ -1,0 +1,16 @@
+[Unit]
+Description=Pastel Network Explorer
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node --stack-size=10000 /var/www/Pastel-explorer/bin/cluster
+ExecStop=/bin/kill -2 $(cat /var/www/Pastel-explorer/tmp/cluster.pid)
+Restart=always
+User=www-data
+Group=www-data
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/Pastel-explorer
+
+[Install]
+WantedBy=multi-user.target
