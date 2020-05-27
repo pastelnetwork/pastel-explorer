@@ -48,9 +48,9 @@
   "wallet": {
     "host": "localhost",
     //mainnet
-    //"port": 9932,
+    "port": 9932,
     //testnet
-    "port": 19932,
+    //"port": 19932,
     "username": "animecoinrpc",
     "password": "aslaksjlakjljlkdslasldlas1292130ajsdaljdl"
   },
@@ -98,7 +98,7 @@
     "exchange": "BTC",
     "enabled": ["cryptopia"],
     "cryptopia_id": "ANI_BTC",
-    "ccex_key" : "Get-Your-Own-Key",
+    //"ccex_key" : "Get-Your-Own-Key",
     "default": "cryptopia"
   },
 
@@ -126,12 +126,12 @@
 
   //genesis
   //testnet
-  "genesis_tx": "3b9d264d4195ba7fa0acaf6a09f1da51c138a84e1ad5c4faef06ed9233d6ee20",
-  "genesis_block": "07329f7726fde9f99f0c6440f67af0bcf81e9745a6b2a5c5b0ae1484ca949ab8",
+  //"genesis_tx": "",
+  //"genesis_block": "",
 
   //mainnet
-  //"genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  //"genesis_block": "00009067632688e02b7c1522037faaa7510be18a0c1c3c09776a16349808b458",
+  "genesis_block": "000279bc7e3c2826212c57582228d11b12561d746bb7b1114f4c6bd3f596a88a",
+  "genesis_tx": "d85566c213783a3b4e75d5561775f25e016c32d365dcad8f3cb10b7d48736df9",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
