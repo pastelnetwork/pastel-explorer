@@ -18,7 +18,7 @@
     "bitcoin-core": "2.0.0",
     "request": "2.88.0",
     "jsonminify": "0.4.1",
-    "mongodb": "3.1.10",
+    "mongodb": "3.1.13",
     "mongoose": "5.3.15",
     "markdown-js": "0.0.4",
     "qr-image": "~3.2.0"
