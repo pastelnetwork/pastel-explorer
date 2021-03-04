@@ -10,10 +10,10 @@
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Animecoin",
+  "coin": "Pastel",
 
   // coin symbol
-  "symbol": "ANI",
+  "symbol": "PSL",
 
   // logo
   "logo": "/images/logo.png",
