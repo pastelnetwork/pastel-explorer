@@ -14,7 +14,7 @@
     "cookie-parser": "~1.4.3",
     "body-parser": "~1.18.3",
     "debug": "~4.1.0",
-    "pug": "~2.0.3",
+    "pug": "~3.0.1",
     "bitcoin-core": "2.0.0",
     "request": "2.88.0",
     "jsonminify": "0.4.1",
